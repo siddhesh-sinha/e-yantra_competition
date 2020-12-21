@@ -1,0 +1,79 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.7433691061153604 0.6324320661524387 0.21778901206306817 5.415545872379903
+  position -0.7887474416469991 1.1443700756331658 1.2545238895321087
+}
+DirectionalLight {
+  direction 0 -1 0
+  intensity 2
+}
+RectangleArena {
+  floorTileSize 0.2 0.2
+}
+Solid {
+  translation -0.37 0 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.1 0.8
+        transparency 0.3
+        roughness 1
+        metalness 0.5
+      }
+      geometry Mesh {
+        url [
+          "STL/arena_start_zone.STL"
+        ]
+      }
+    }
+  ]
+  name "start_zone"
+}
+Solid {
+  translation -0.305 0 -0.305
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0.5
+        transparency 0.3
+        roughness 1
+        metalness 0.5
+      }
+      geometry Mesh {
+        url [
+          "STL/arena_path.STL"
+        ]
+      }
+    }
+  ]
+  name "arena_path"
+}
+DEF my-e-puck E-puck {
+  translation -0.3 0 0.3
+  controller "e-puck"
+  supervisor TRUE
+}
+Robot {
+  controller "e-puck-supervisor"
+  supervisor TRUE
+  window "task_1"
+}
+DEF waypoint Solid {
+  translation 0 0.02 -0.2
+  scale 0.1 0.1 0.1
+  children [
+    Shape {
+      appearance LedStrip {
+        colorOverride 0.988235 0.913725 0.309804
+        IBLStrength 2
+        emissiveIntensity 20
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+}
