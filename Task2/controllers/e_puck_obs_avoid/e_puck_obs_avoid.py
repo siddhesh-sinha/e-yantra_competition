@@ -5,7 +5,7 @@ from controller import Robot, Motor ,DistanceSensor
 import math
 import function_file as ff
 import time
-
+import asyncio
 #setting constants
 PI = math.pi
 AXLE_LENGHT = 56
@@ -54,9 +54,12 @@ stop_robot()
 
 """
 for i in range(100000):
-    ff.move_xcm(1,1)
-    print("1=",ff.SeT_SeNsOr_SeT_1(ff.Distance_Of_DistanceSensor()))
-    print("2=",ff.SeT_SeNsOr_SeT_2(ff.Distance_Of_DistanceSensor()))
-    print("3=",ff.SeT_SeNsOr_SeT_3(ff.Distance_Of_DistanceSensor()))
-    print("4",ff.SeT_SeNsOr_SeT_4(ff.Distance_Of_DistanceSensor()))
+    ff.move_xcm(1,3)
+    """ff.ChEcK_PaRaMeTeR(ff.SeTs_VaLuEs_4(), 40)
+    ff.ChEcK_PaRaMeTeR(ff.SeTs_VaLuEs_3(), 40)
+    ff.ChEcK_PaRaMeTeR(ff.SeTs_VaLuEs_2(), 40)
+    ff.ChEcK_PaRaMeTeR(ff.SeTs_VaLuEs_1(), 40)"""
+    asyncio.run(ff.execution_StEp_1())
+
+
 ff.stop_robot()
