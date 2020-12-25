@@ -1,0 +1,67 @@
+<div id='infotabs' class='webotsTabs webotsRobotWindowTabs'>
+  <ul>
+    <li><a href='#infotab-overview'>Overview</a></li>
+    <li><a href='#infotab-metrics'>Metrics</a></li>
+    <!-- <li><a href='#infotab-instructions'>Instructions</a></li> -->
+  </ul>
+  <div id='infotab-overview'>
+    <p>
+  The objective of the task is to navigate a field of obstacles and reach the finish line. When the simulation starts, a countdown timer of 180 seconds would automatically start. It will stop when you reach the finish line, or 0 to zero if you collide with an obstacle.<br>
+
+  The following instructions need to be followed while making a final submission video of Task 2:
+  1. Make sure you've followed the instructions on the Task 2 Problem Statement Page and have edited the teaminfo.json file by replacing the placeholder with your team ID.<br>
+  2. Go to the metrics tab.<br>
+  3. Start the simulation using the Webots interface.<br>
+  4. The countdown timer will start counting down from 180 seconds.<br>
+  5. As you traverse towards the goal line the completion percentage will increase, it is indicated in the Progress field.<br>
+  6. If you collide with an obstacle countdown timer will go to 0.<br>
+  7. Login to the eYSRC portal and upload the zip file obtained in the Task 2 folder.<br>
+    </p>
+    
+  </div>
+  <div id='infotab-metrics'>
+    <div style="text-align: center; font-size: 24px;">Time remaining</div>
+    <div id="time_remaining" style="text-align: center; font-size: 24px;"><strong>0.0</strong></div>
+    <div style="text-align: center; font-size: 24px;">Progress</div>
+    <div id="progress" style="text-align: center; font-size: 24px;"><strong>0</strong></div>
+    <!-- <br>
+    <div style="text-align: center;"><button id="submit_task" disabled="">Submit task</button></div> -->
+    <br>
+    <div style="text-align: center; font-size: 24px; color:green;" id="leaderboard_status"></div>
+    
+    <br>
+    <div style="text-align: center; font-size: 24px; color:green;" id="submission_status"></div>
+    
+  </div>
+<!--   <div id='infotab-instructions'>
+    <p>
+      <h2>How to improve complete the task?</h2>
+    </p>
+    <p>
+      The basic controller is an open-loop program that simply sets the velocity and waits for a given time until the robot reaches
+      the desired position. The simplest thing to improve the performance is to tune the duration of the steps in order to improve
+      the precision of the path.
+    </p>
+    <p>
+      A more elegant solution would be to use the wheel sensors of the robot. The Pioneer 3-DX has sensors in its wheel that allows the robot to know
+      the distance travelled so far. By using this value you can make the robot stop after exactly 2 meters.
+    </p>
+    <p>
+      In order to use a sensor, you first have to enable it, as they are disabled by default.
+    </p>
+    <code>rightWheelSensor = robot.getPositionSensor('right wheel sensor')</code><br>
+    <code>rightWheelSensor.enable(16) # Refreshes the sensor every 16ms.</code>
+    <p>
+      You can then access the value of the sensor with its <code>getValue()</code> method.
+    </p>
+    <code>rightWheelSensor.getValue()</code>
+    <p>
+      Some information about the robot that can be useful to improve the controller:
+      <ul>
+        <li>The diameter of the wheels is 195mm.</li>
+        <li>The distance between the two wheels is 330mm.</li>
+      </ul>
+    </p>
+  </div> -->
+
+</div>
