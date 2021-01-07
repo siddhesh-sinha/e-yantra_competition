@@ -11,6 +11,4 @@ Pitch your ideas below-
 
     => We can add new and different objects found in Webots, like a ball etc.
 
-    => Also, they can be good moving objects for it
-
-                        ---X---
+                                                                                 ---X---

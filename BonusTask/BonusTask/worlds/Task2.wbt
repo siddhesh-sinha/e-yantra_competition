@@ -1,0 +1,566 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.0002044910450605757 10.647135691500637 -0.29999972173983197
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0.1 -0.3
+  floorSize 3 6
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -2.10281
+  name "box(52)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -7.870204871557014e-07 0.14947357545057827 0.19999973639588198
+  rotation 0.9753623355242247 0.22031342257013625 0.011415352651683235 -1.0604343102669885e-05
+  name "U-Turn"
+  size 0.3 0.1 5
+  appearance Parquetry {
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -1.77281
+  name "box(40)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -1.77281
+  name "box(41)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -1.77281
+  name "box(42)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -1.77281
+  name "box(43)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -1.70281
+  name "box(44)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -1.63281
+  name "box(53)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -1.63281
+  name "box(45)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -1.63281
+  name "box(46)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -1.56281
+  name "box(47)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -1.49281
+  name "box(48)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -1.42281
+  name "box(49)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -1.42281
+  name "box(50)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -1.42281
+  name "box(51)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.399999 0.149474 1.08
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 -1.5707953071795862
+  name "U-Turn(1)"
+  size 0.1 0.1 0.5
+  appearance Parquetry {
+    type "chequered"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation 1.1 0.149474 1.5
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 -1.5707953071795862
+  name "U-Turn(2)"
+  size 0.1 0.1 0.8
+  appearance Parquetry {
+    type "chequered"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -2.24281
+  name "box(26)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -2.24281
+  name "box(29)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -2.24281
+  name "box(30)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -2.24281
+  name "box(31)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -2.17281
+  name "box(32)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -2.10281
+  name "box(33)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -2.10281
+  name "box(34)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -2.03281
+  name "box(35)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.09436 0.234864 -1.96281
+  name "box(36)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.02436 0.234864 -1.89281
+  name "box(37)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.04564 0.234864 -1.89281
+  name "box(38)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation -0.11564 0.234864 -1.89281
+  name "box(39)"
+  size 0.07 0.07 0.07
+  physics Physics {
+  }
+}
+SolidBox {
+  translation 0.569999 0.149474 1.99
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 -1.5707953071795862
+  name "U-Turn(3)"
+  size 0.1 0.1 0.85
+  appearance Parquetry {
+    type "chequered"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation 0.829999 0.149474 2.65
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 -1.5707953071795862
+  name "U-Turn(8)"
+  size 0.1 0.1 1.35
+  appearance Parquetry {
+    type "light strip"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -0.320001 0.149474 0.85
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 0
+  name "U-Turn(4)"
+  size 0.1 0.1 0.85
+  appearance Parquetry {
+    type "dark strip"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -0.660001 0.149474 0.85
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 0
+  name "U-Turn(5)"
+  size 0.1 0.1 0.85
+  appearance Parquetry {
+    type "dark strip"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -0.99 0.149474 0.85
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 0
+  name "U-Turn(6)"
+  size 0.1 0.1 0.85
+  appearance Parquetry {
+    type "dark strip"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+SolidBox {
+  translation -1.33 0.149474 0.85
+  rotation 5.232059999860051e-06 0.9999999999732516 -5.111009999863289e-06 0
+  name "U-Turn(7)"
+  size 0.1 0.1 0.85
+  appearance Parquetry {
+    type "dark strip"
+  }
+  physics Physics {
+    mass 5
+  }
+}
+DEF BoxGroup Group {
+  children [
+    SolidBox {
+      translation 10 0.13486528507963594 -10.000000000000002
+      rotation 0.0273638957612417 0.9996238739072066 -0.0018242597174347658 6.9523974262372845e-15
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 11 0.13486431291597653 -11
+      rotation 0.06934095267699847 0.9921559629998062 -0.10401142901515034 7.316298997680621e-16
+      name "box(1)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 12 0.134865178915044 -12
+      rotation -0.022758230832318833 0.9990776466464536 -0.036413169331535766 -2.786459689620056e-15
+      name "box(2)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 13.005140412525096 0.13486531487516956 -12.998181081528926
+      rotation 3.940203698838381e-06 0.9999999999762712 5.650901011758913e-06 -0.15184594916012842
+      name "box(3)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 14.130737635467648 0.13486533796194786 -13.9985865003205
+      rotation -0.004435029822365174 4.9929869104381545e-09 0.9999901652068759 3.1415914048959945
+      name "box(4)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 10.514794333756956 0.13486529288453472 -14.863690848539498
+      rotation 1.128655038436977e-06 0.9999999998497805 -1.7296388214920255e-05 0.07386366725975559
+      name "box(5)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 16.221623083226078 0.13486537478284005 -15.83909406185984
+      rotation 0.9617109837101283 -0.1937936911624069 0.19379367656594712 1.6098288760350838
+      name "box(6)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 16.941832111015902 0.13486512495462835 -17.10875538677588
+      rotation 0.4195917433234126 -0.6418495961556058 -0.6418503445895353 -2.347030131643772
+      name "box(7)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 17.993361904506752 0.13486425477160932 -18.000045397778184
+      rotation 0.0011718778972729623 0.9851092046881877 -0.17192580242883865 -1.1351029518787676e-06
+      name "box(8)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 19.008247046105115 0.13486424523053306 -18.999957020940816
+      rotation -0.005211403663794969 -0.0011929009647903633 0.9999857090274548 -1.1055252853167486e-06
+      name "box(9)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 20.00001323807089 0.13486508276781284 -20.000013363955702
+      rotation -0.7104449643222708 0.00024090257444803282 -0.7037527226484293 3.0017851561150976e-09
+      name "box(10)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 21.000012334366602 0.13486428417222618 -21.000012527019972
+      rotation -0.7125642958653334 0.0009692042856800667 -0.7016061465672847 8.991239405310616e-10
+      name "box(11)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 22.00001142978766 0.13486432490065012 -22.000011674555527
+      rotation -0.7145578033142982 -0.00019517392997911383 -0.6995763772668298 6.462488392155634e-10
+      name "box(12)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 23.000010776154213 0.13486439426952573 -23.000011064719967
+      rotation -0.7163869053536075 2.791886877093169e-05 -0.6977032327991736 1.0494588419825406e-09
+      name "box(13)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+  ]
+}
+Group {
+  children [
+    SolidBox {
+      translation 1.29436 0.134864 0.46719
+      rotation 0 1 0 -0.523595307179586
+      name "box(27)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.88436 0.134864 -1.91281
+      rotation 0 1 0 0.523599
+      name "box(28)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.30436 0.134864 0.47719
+      rotation 0 1 0 -1.047195307179586
+      name "box(25)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.84436 0.134864 0.37719
+      name "box(24)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 1.22242 0.134864 0.15219
+      rotation 0 1 0 -1.047195307179586
+      name "box(23)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.83436 0.134864 -0.86281
+      name "box(22)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.98528 0.134864 -0.305618
+      rotation 0 1 0 1.0472
+      name "box(19)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.43436 0.134864 -1.91281
+      name "box(21)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.55436 0.134864 -0.15497
+      rotation 0 1 0 -1.047195307179586
+      name "box(20)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 1.11316 0.134864 -0.725946
+      rotation 0 1 0 -0.785395307179586
+      name "box(18)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.43436 0.134864 -0.92281
+      rotation 0 1 0 -1.047195307179586
+      name "box(17)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 1.16436 0.134864 -1.70353
+      rotation 0 1 0 0.523599
+      name "box(16)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 0.88436 0.134864 -1.43281
+      rotation 0 1 0 -0.523595307179586
+      name "box(14)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+    SolidBox {
+      translation 1.23436 0.134864 -2.20281
+      rotation 0 1 0 0.785398
+      name "box(15)"
+      size 0.07 0.07 0.07
+      physics Physics {
+      }
+    }
+  ]
+}
+Robot {
+  controller "supervisor"
+  supervisor TRUE
+  showWindow TRUE
+  window "task_2"
+}
+DEF EPuck E-puck-eYSRC {
+  translation -0.86 0.101939 2
+  rotation 0 1 0 0
+  controller "e-puck"
+  supervisor TRUE
+}
+Solid {
+  translation 0 0 -2.2
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.937255 0.160784 0.160784
+        }
+      }
+      geometry Plane {
+        size 2 0.02
+      }
+      castShadows FALSE
+      isPickable FALSE
+    }
+  ]
+  locked TRUE
+}
