@@ -1,0 +1,73 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.00013676858686666106 2.4922319765564263 7.182268700113598e-07
+}
+Background {
+  skyColor [
+    1 1 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+RectangleArena {
+  floorSize 4.5 4.5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+DEF box Solid {
+  translation 0 0.025 -0.15
+  rotation 0 1 0 -1.570832679
+  children [
+    DEF texture_shape TexturedBoxShape {
+      size 0.075 0.075 0.075
+      textureUrl [
+        "textures/5.jpg"
+      ]
+      textureFiltering 0
+      textureMapping "default"
+      faceColor 1 1 1
+      bottomFace FALSE
+    }
+  ]
+  boundingObject Box {
+    size 0.05 0.05 0.05
+  }
+  physics Physics {
+  }
+}
+DEF waypoint Solid {
+  translation 0 0.02 0
+  scale 0.1 0.1 0.1
+  children [
+    Shape {
+      appearance LedStrip {
+        colorOverride 0.988235 0.913725 0.309804
+        IBLStrength 2
+        emissiveIntensity 20
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "solid_2"
+}
+Robot {
+  controller "supervisor"
+  supervisor TRUE
+  showWindow TRUE
+  window "Task4"
+}
+DEF my-e-puck E-puck {
+  controller "e-puck"
+  camera_fieldOfView 1
+  camera_width 100
+  camera_height 75
+}

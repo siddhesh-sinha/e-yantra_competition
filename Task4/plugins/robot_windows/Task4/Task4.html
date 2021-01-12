@@ -1,0 +1,32 @@
+<div id='infotabs' class='webotsTabs webotsRobotWindowTabs'>
+  <ul>
+    <li><a href='#infotab-overview'>Overview</a></li>
+    <li><a href='#infotab-metrics'>Metrics</a></li>
+    <!-- <li><a href='#infotab-instructions'>Instructions</a></li> -->
+  </ul>
+  <div id='infotab-overview'>
+    <p>
+      The aim of the task is to apply concepts of image processing to follow a defined path in the arena. The e-puck robot has to start by scanning the box in front of the robot. The robot must determine the number of edges and the color of the shape printed on the box. After scanning the shape on the bot, the bot must turn left if the color of the displayed image is blue and turn right if the color of the displayed image is green. Robot must then go straight for a distance equal to 0.15*n metres where n is the number of edges in the scanned shape or n=2 if the scanned shape is a circle. If done correctly, robot will now reach the next waypoint, upon reaching which another box would appear. The robot repeat the same procedure till the number of waypoints covered equals 7 and the simulation automatically stops. Please follow the instructions below<br>
+      1.Make sure you've followed the instructions on the Task 4 Problem Statement Page and have edited the teaminfo.json file by replacing the necessary placeholders.<br> 
+      2.Go to the metrics tab<br>
+      3.Open the e-puck.py file by clicking the "Open an existing text file" button on the "Text editor" pane on the right side of the webots simulator. Then select the e-puck.py file in the e-puck folder contained in the controllers folder.<br>
+      4.Make changes to the designated area in the e-puck.py file<br>
+      5.Start the simulation using the Webots interface<br>
+      6.You'd see that the countdown timer has begun. As you pass through waypoints, the Waypoint count would increase. When 180 seconds have elapsed or the robot has covered all waypoints, the simulation would automatically stop. Please note that the time would be considered maximum if the robot has collided with a wall or the box<br>
+      7.Login to the eYSRC portal and upload the zip file obtained in the Task 4 folder
+    </p>
+    
+  </div>
+  <div id='infotab-metrics'>
+    <div style="text-align: center; font-size: 24px;">Time remaining</div>
+    <div id="time_remaining" style="text-align: center; font-size: 24px;"><strong>0.0</strong></div>
+    <div style="text-align: center; font-size: 24px;">Waypoints reached</div>
+    <div id="waypoints_reached" style="text-align: center; font-size: 24px;"><strong>0</strong></div>
+    <!-- <br>
+    <div style="text-align: center;"><button id="submit_task" disabled="">Submit task</button></div> -->
+    <br>
+    <div style="text-align: center; font-size: 24px; color:green;" id="submission_status"></div>
+    
+  </div>
+
+</div>
