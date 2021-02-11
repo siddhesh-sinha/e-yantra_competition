@@ -1,0 +1,362 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "bearing"
+      coulombFriction [
+        0
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.9999987802102968 5.745637993874006 0.5099550980938117
+  follow "ground_floor"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Group {
+  children [
+    Solid {
+      translation 0 0 2.04
+      scale 0.001 0.001 0.001
+      children [
+        Solid {
+          children [
+            DEF SHAPE Shape {
+              appearance PBRAppearance {
+                baseColor 0.627451 0.627451 0.627451
+                transparency 1
+                roughness 1
+                metalness 0
+                name "DefaultMaterial"
+              }
+              geometry IndexedFaceSet {
+                coord Coordinate {
+                  point [
+                    750 70 -200, 750 70 -610, 1000 70 -200, 1000 70 -610, 550 8.88178e-15 -200, 1000 0 -200, 550 1.22125e-14 0, 1000 0 0, 1000 0 -610, 250 0 -610, 1000 0 -1000, 0 0 -1000, 0 0 0, 250 0 0, 550 1.22125e-14 0, 550 10 0, 550 8.88178e-15 -200, 550 10 -200, 550 10 0, 750 75 0, 550 10 -200, 750 75 -200, 750 75 -200, 750 70 -200, 550 10 -200, 1000 0 -200, 550 8.88178e-15 -200, 1000 70 -200, 250 75 -610, 250 0 -610, 750 70 -610, 1000 0 -610, 1000 70 -610, 750 75 -610, 250 0 0, 250 0 -610, 250 75 0, 250 75 -610, 0 0 0, 250 0 0, 0 75 0, 250 75 0, 0 0 -1000, 0 0 0, 0 75 -1000, 0 75 0, 1000 0 -1000, 0 0 -1000, 1000 75 -1000, 0 75 -1000, 1000 0 -610, 1000 0 -1000, 1000 70 -610, 1000 75 -1000, 1000 75 0, 1000 70 -200, 1000 0 0, 1000 0 -200, 550 1.22125e-14 0, 1000 0 0, 550 10 0, 750 75 0, 1000 75 0, 750 70 -610, 750 70 -200, 750 75 -610, 750 75 -200, 750 75 -200, 1000 75 0, 750 75 -610, 1000 75 -1000, 0 75 -1000, 750 75 0, 250 75 -610, 0 75 0, 250 75 0
+                  ]
+                }
+                normal Normal {
+                  vector [
+                    0 -1 0, 0 -1 0, 0 -1 0, 0 -1 0, -1.97373e-17 -1 1.66533e-17, -1.97373e-17 -1 1.66533e-17, -1.97373e-17 -1 1.66533e-17, -2.71388e-17 -1 0, 0 -1 0, 0 -1 0, 0 -1 0, 0 -1 0, 0 -1 0, 0 -1 0, -1 0 0, -1 0 0, -1 0 0, -1 0 0, -0.309086 0.951034 -8.44688e-18, -0.309086 0.951034 -8.44688e-18, -0.309086 0.951034 -8.44688e-18, -0.309086 0.951034 0, 0 0 -1, 0 0 -1, 0 0 -1, 0 0 -1, 0 0 -1, 0 0 -1, 0 0 1, 0 0 1, 0 0 1, 0 0 1, 0 0 1, 0 0 1, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 0 0 1, 0 0 1, 0 0 1, 0 0 1, -1 0 0, -1 0 0, -1 0 0, -1 0 0, 0 0 -1, 0 0 -1, 0 0 -1, 0 0 -1, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 1 0 0, 0 0 1, 0 0 1, 0 0 1, 0 0 1, 0 0 1, -1 0 0, -1 0 0, -1 0 0, -1 0 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0, 0 1 0
+                  ]
+                }
+                coordIndex [
+                  0, 1, 2, -1, 2, 1, 3, -1, 4, 5, 6, -1, 6, 5, 7, -1, 8, 9, 10, -1, 10, 9, 11, -1, 11, 9, 12, -1, 12, 9, 13, -1, 14, 15, 16, -1, 16, 15, 17, -1, 18, 19, 20, -1, 20, 19, 21, -1, 22, 23, 24, -1, 24, 23, 25, -1, 24, 25, 26, -1, 23, 27, 25, -1, 28, 29, 30, -1, 30, 29, 31, -1, 30, 31, 32, -1, 30, 33, 28, -1, 34, 35, 36, -1, 36, 35, 37, -1, 38, 39, 40, -1, 40, 39, 41, -1, 42, 43, 44, -1, 44, 43, 45, -1, 46, 47, 48, -1, 48, 47, 49, -1, 50, 51, 52, -1, 52, 51, 53, -1, 52, 53, 54, -1, 52, 54, 55, -1, 55, 54, 56, -1, 55, 56, 57, -1, 58, 59, 60, -1, 60, 59, 61, -1, 61, 59, 62, -1, 63, 64, 65, -1, 65, 64, 66, -1, 67, 68, 69, -1, 69, 68, 70, -1, 69, 70, 71, -1, 67, 72, 68, -1, 69, 71, 73, -1, 73, 71, 74, -1, 73, 74, 75, -1
+                ]
+              }
+            }
+          ]
+          name ""
+          boundingObject USE SHAPE
+        }
+      ]
+      name "<STL_BINARY>"
+    }
+    Solid {
+      translation 0 0 1.04
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.2
+            roughness 0.5
+          }
+          geometry Mesh {
+            url [
+              "STL/WF_Wall.STL"
+            ]
+          }
+          isPickable FALSE
+        }
+      ]
+      name "WF_Wall"
+      boundingObject Mesh {
+        url [
+          "STL/WF_Wall.STL"
+        ]
+      }
+    }
+    Solid {
+      translation 0 0 1.04
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.6 0.7 0.6
+            roughness 1
+            metalness 0
+            emissiveIntensity 0
+          }
+          geometry Mesh {
+            url [
+              "STL/WF_Path.STL"
+            ]
+          }
+          isPickable FALSE
+        }
+      ]
+      name "WF_Path"
+    }
+    Solid {
+      translation -0.02 0 1.04
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.5 0.5 0
+            roughness 0.5
+            metalness 0
+            emissiveIntensity 0
+          }
+          geometry Mesh {
+            url [
+              "STL/WF_Floor.STL"
+            ]
+          }
+          isPickable FALSE
+        }
+      ]
+      name "WF_Floor"
+    }
+    Solid {
+      translation 1.8 0 0.79
+      rotation 0 -1 0 1.57
+      scale 0.001 0.001 0.001
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            transparency 0.2
+            roughness 1
+          }
+          geometry Mesh {
+            url [
+              "STL/Transition_Tunnel.stl"
+            ]
+          }
+        }
+      ]
+      name "transition_tunnel"
+    }
+    Transform {
+      translation 1.9 0.0115 0.91
+      children [
+        Floor {
+          name "transition_floor"
+          size 0.2 0.25
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+          }
+        }
+        Floor {
+          translation 0 0.001 0
+          name "transition_floor(1)"
+          size 0.01 0.25
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 1
+          }
+        }
+      ]
+    }
+    Floor {
+      translation 1 0.005 0.51
+      name "LF_Arena"
+      size 2.04 1.02
+      appearance PBRAppearance {
+        baseColorMap DEF LFFloorApr ImageTexture {
+          url [
+            "textures/LF_2.png"
+          ]
+          repeatS FALSE
+          repeatT FALSE
+        }
+        metalness 0
+        textureTransform TextureTransform {
+          scale 0.245 0.48
+        }
+      }
+    }
+    Solid {
+      translation -0.02 -0.02 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.9 0.2 0.1
+            roughness 0.5
+          }
+          geometry Mesh {
+            url [
+              "STL/Floor_Pillar.STL"
+            ]
+          }
+          isPickable FALSE
+        }
+      ]
+      name "Floor"
+    }
+    Solid {
+      children [
+        Transform {
+          translation -0.02 0.04 1.04
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 0 0
+                transparency 0.05
+              }
+              geometry Box {
+                size 0.01 0.08 2.08
+              }
+              castShadows FALSE
+              isPickable FALSE
+            }
+          ]
+        }
+        Transform {
+          translation 2.015 0.04 1.04
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 0 0
+                transparency 0.05
+              }
+              geometry Box {
+                size 0.01 0.08 2.08
+              }
+              castShadows FALSE
+              isPickable FALSE
+            }
+          ]
+        }
+        Transform {
+          translation 1 0.04 2.08
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 0 0
+                transparency 0.05
+              }
+              geometry Box {
+                size 2.04 0.08 0.01
+              }
+              castShadows FALSE
+              isPickable FALSE
+            }
+          ]
+        }
+        Transform {
+          translation 1 0.04 0
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 0 0
+                transparency 0.05
+              }
+              geometry Box {
+                size 2.04 0.08 0.01
+              }
+              castShadows FALSE
+              isPickable FALSE
+            }
+          ]
+        }
+        Transform {
+          translation 0.89 0.04 1.035
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 0 0
+                transparency 0.05
+              }
+              geometry Box {
+                size 1.83 0.08 0.01
+              }
+              castShadows FALSE
+              isPickable FALSE
+            }
+          ]
+        }
+      ]
+      name "Barrier"
+    }
+    Floor {
+      translation 0 0.01 0
+      name "ground_floor"
+      appearance PBRAppearance {
+        transparency 1
+      }
+    }
+    Floor {
+      translation 0.1 0.0115 0.1
+      name "finish_floor"
+      size 0.2 0.2
+      appearance PBRAppearance {
+        baseColor 0.2 0.2 1
+        roughness 1
+      }
+    }
+    Transform {
+      translation 1.8 0.176929 1.8
+      rotation 0 1 0 0.785
+      children [
+        SolidBox {
+          rotation 0.7071067811865475 0 0.7071067811865475 0.9162996938995747
+          size 0.2 0.2 0.2
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/e-yantra_logo.png"
+              ]
+            }
+            roughness 0.5
+            metalness 0
+          }
+          enableBoundingObject FALSE
+          castShadows FALSE
+        }
+        SolidTorus {
+          translation 0 -0.157 0
+          majorRadius 0.05
+          minorRadius 0.02
+          appearance PBRAppearance {
+            baseColor 0 0.5 1
+            roughness 0.5
+            metalness 0
+          }
+          enableBoundingObject FALSE
+        }
+      ]
+    }
+  ]
+}
+DEF my-e-puck E-puck-eYSRC {
+  translation 0.0916802 0.0675374 1.96669
+  rotation -0.3469656749396241 0.9378395279433177 0.008475862242040551 0.051390306100425304
+  controller "e-puck"
+}
+Robot {
+  controller "supervisor"
+  supervisor TRUE
+  showWindow TRUE
+  window "Task5"
+}
+DEF waypoint Solid {
+  translation 0 0.08 -0.2
+  children [
+    Shape {
+      appearance LedStrip {
+        colorOverride 0.988235 0.913725 0.309804
+        IBLStrength 2
+        emissiveIntensity 20
+      }
+      geometry Sphere {
+        radius 0.025
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import math
 
 timestep = 32
 MAX_SPEED = 6.28
-w = 0.75*MAX_SPEED  # You can tweak it if you want
+w = 0.75 * MAX_SPEED  # You can tweak it if you want
 R = 20.5  # In mm
 
 robot = Robot()
